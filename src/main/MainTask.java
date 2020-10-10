@@ -3,6 +3,8 @@ package main;
 import java.util.ArrayList;
 import java.util.Collections;
 
+import Main.Rate;
+
 public class MainTask {//成绩统计
 
 	public static void main(String[] args) {
@@ -16,6 +18,9 @@ public class MainTask {//成绩统计
        //1、对成绩排序
 	   //2、求平均分，最大最小值中值
 	   //3、统计区间：0~20，xx个，21~40：X个
+		Rate re = new Rate();
+		re.getRate(arr);
+
 		
 		
 	}
