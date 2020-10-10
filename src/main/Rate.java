@@ -9,11 +9,11 @@ public class Rate {
 		double rate = 0;
 		for(int i = 0 ; i < arr.size();i++) {
 			if((int)arr.get(i)>=60)
-				count++;
+				 count++;
 			
 		}
-		rate = count/arr.size();
-		System.out.println(rate);
+		rate =(double)count/arr.size();
+		System.out.println("及格率为："+rate);
 	}
 
 }

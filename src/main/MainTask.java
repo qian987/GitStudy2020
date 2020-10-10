@@ -25,8 +25,6 @@ public class MainTask {//³É¼¨Í³¼Æ
 		
 		Sort sr = new Sort();
 		sr.getSort(arr);
-
-		
 		
 	}
 

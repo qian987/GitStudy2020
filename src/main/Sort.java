@@ -4,11 +4,11 @@ import java.util.ArrayList;
 
 public class Sort {
 
-	public static void getSort(ArrayList arr) {
+	public void getSort(ArrayList arr) {
 		// TODO Auto-generated method stub
-		arr.sort();
-		for(int i = 0 ; i<list.size();i++){
-			System.out.print(list.get(i));
+		arr.sort(null);
+		for(int i = 0 ; i<arr.size();i++){
+			System.out.print(arr.get(i)+" ");
 		}
 	}
 }
