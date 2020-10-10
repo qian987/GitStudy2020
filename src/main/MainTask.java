@@ -3,7 +3,7 @@ package main;
 import java.util.ArrayList;
 import java.util.Collections;
 
-import Main.Rate;
+import main.Rate;
 
 public class MainTask {//成绩统计
 
@@ -20,6 +20,8 @@ public class MainTask {//成绩统计
 	   //3、统计区间：0~20，xx个，21~40：X个
 		Rate re = new Rate();
 		re.getRate(arr);
+		ComValue cv=new ComValue();
+		cv.compareV(arr);
 
 		
 		
