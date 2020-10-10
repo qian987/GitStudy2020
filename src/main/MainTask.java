@@ -22,6 +22,9 @@ public class MainTask {//³É¼¨Í³¼Æ
 		re.getRate(arr);
 		ComValue cv=new ComValue();
 		cv.compareV(arr);
+		
+		Sort sr = new Sort();
+		sr.getSort(arr);
 
 		
 		
