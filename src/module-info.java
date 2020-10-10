@@ -1,0 +1,2 @@
+module GitStudy1010 {
+}
